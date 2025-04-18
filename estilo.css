@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    place-items: center;
+    padding: 5;
+    background: black;
+    background-image:url(O\ grupo\ 2\ \(GTA\ 5\)\ melhorada\ 2.jpg)
+    
+}
+p{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-radius: 5px;
+    color: white;
+}
+button {
+    padding: 5px;
+}
+#Reset{
+    background: rgb(68, 216, 28);
+    border: 3px solid rgb(68, 216, 28);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#Reset:hover {
+    background-color: green;
+    transform: scale(1.1);
+    color: white;
+}
+#menosdezmil{
+    background: rgb(11, 187, 226);
+    border: 3px solid rgb(11, 187, 226);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#menosdezmil:hover {
+    background-color: rgb(49, 81, 230);
+    transform: scale(1.1);
+    color: white;
+}
+#menosmil{
+    background: rgb(11, 187, 226);
+    border: 3px solid rgb(11, 187, 226);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#menosmil:hover {
+    background-color: rgb(49, 81, 230);
+    transform: scale(1.1);
+    color: white;
+}
+#menoscem{
+    background: rgb(11, 187, 226);
+    border: 3px solid rgb(11, 187, 226);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#menoscem:hover {
+    background-color: rgb(49, 81, 230);
+    transform: scale(1.1);
+    color: white;
+}
+
+#menosdez{
+    background: rgb(11, 187, 226);
+    border: 3px solid rgb(11, 187, 226);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#menosdez:hover {
+    background-color: rgb(49, 81, 230);
+    transform: scale(1.1);
+    color: white;
+}
+#menosum{
+    background: rgb(11, 187, 226);
+    border: 3px solid rgb(11, 187, 226);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+#menosum:hover {
+    background-color: rgb(49, 81, 230);
+    transform: scale(1.1);
+    color: white;
+}
+#maisdezmil{
+    background: orangered;
+    border: 3px solid orangered;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#maisdezmil:hover{
+    background-color: rgb(209, 36, 9);
+    transform: scale(1.1);
+    color: white;
+}
+
+#maismil{
+    background: orangered;
+    border: 3px solid orangered;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#maismil:hover{
+    background-color: rgb(209, 36, 9);
+    transform: scale(1.1);
+    color: white;
+}
+
+#maiscem{
+    background: orangered;
+    border: 3px solid orangered;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#maiscem:hover{
+    background-color: rgb(209, 36, 9);
+    transform: scale(1.1);
+    color: white;
+}
+#maisdez{
+    background: orangered;
+    border: 3px solid orangered;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#maisdez:hover{
+    background-color: rgb(209, 36, 9);
+    transform: scale(1.1);
+    color: white;
+}
+
+#maisum{
+    background: orangered;
+    border: 3px solid orangered;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#maisum:hover{
+    background-color: rgb(209, 36, 9);
+    transform: scale(1.1);
+    color: white;
+}
+
+div{
+    margin-top: 50px;
+}
+#pe {
+    background-position: 15% 15%;
+    width: 700px;
+    height: 150px;
+}
+#resultado{
+    text-align: center;
+}
+#ka{
+    text-align: center;
+    color: lightslategray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h2{
+    text-align: center;
+    color: rgb(68, 216, 28);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:35px;
+}
+p{
+    color: rgb(68, 216, 28);
+    margin-top: -70px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 73px;
+}
+
+#btns{
+    margin-top:40px;
+    padding: 10px;
+    font-size: 25px;
+}

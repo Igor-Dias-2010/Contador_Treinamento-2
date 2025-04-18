@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador GTA V</title>
+    <link rel="stylesheet" href="/estilo.css">
+</head>
+
+<body>
+    <div id="pe">
+        <h1 id="ka">Contador do</h1>
+        <h2>GTA V</h2>
+
+    </div>
+        <p id="resultado">0</p>
+
+    <div id="btns">
+        <button id="menosdezmil" onclick="add(-10000)">-10.000</button>
+        <button id="menosmil" onclick="add(-1000)">-1.000</button>
+        <button id="menoscem" onclick="add(-100)">-100</button>
+        <button id="menosdez" onclick="add(-10)">-10</button>
+        <button id="menosum" onclick="add(-1)">-1</button>
+
+        <button id="Reset" onclick="Reset()">Reset</button>
+
+        <button id="maisum" onclick="add(1)">+1</button>
+        <button id="maisdez" onclick="add(10)">+10</button>
+        <button id="maiscem" onclick="add(100)">+100</button>
+        <button id="maismil" onclick="add(1000)">+1.000</button>
+        <button id="maisdezmil" onclick="add(10000)">+10.000</button>
+        
+    </div>
+
+    <script>
+
+        let numero = 0
+
+        function add(value) {
+            numero = numero + value
+            render()
+        }
+        function Reset() {
+            numero = 0;
+            render();
+        }
+
+        function render() {
+            const p = document.querySelector("#resultado")
+            if (p) {
+                p.innerText = numero
+            }
+        }
+    </script>
+</body>
+
+</html>
